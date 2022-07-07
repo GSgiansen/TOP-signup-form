@@ -1,0 +1,74 @@
+body{
+    margin:0px;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+img{
+    height: 100px;
+    width: auto;
+}
+#backgroundpic{
+    height:100vh;
+    width:40vw;
+    position: absolute;
+}
+@font-face {
+    font-family:Norse;
+    src: url(./Norse-Bold.otf);
+}
+.highlight{
+    top: 150px;
+    width:40vw;
+    display: flex;
+    flex-direction: row;
+    font-size: 100px;
+    font-family:Norse;
+    background-color: black;
+    opacity: 0.6;
+    position: relative;
+    color: brown;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#odin{
+    padding-top: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction:column;
+    width: 60vw;
+}
+.top{
+    height: 40vh;
+    width:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxinput{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.fillup{
+    padding-right: 20vw;
+    padding-left: 5vw;
+    height:40vh;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.footer{
+    position: fixed;
+    bottom:0;
+}
