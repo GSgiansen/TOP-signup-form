@@ -31,7 +31,7 @@ img{
     background-color: black;
     opacity: 0.6;
     position: relative;
-    color: brown;
+    color: royalblue;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -58,6 +58,7 @@ img{
 }
 #lets{
     font-size: 28px;
+    color:rgba(13, 75, 163, 0.659);
 }
 
 .boxinput{
@@ -113,4 +114,8 @@ form{
     border-radius: 8px;
     color: white;
     font-weight: bold;
+}
+
+#login{
+    color: royalblue;
 }
