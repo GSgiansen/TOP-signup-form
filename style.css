@@ -3,7 +3,11 @@ body{
     display: flex;
     flex-direction: row;
     height: 100vh;
+    font-family: 'Lato', sans-serif;
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
 img{
     height: 100px;
     width: auto;
@@ -43,23 +47,48 @@ img{
     width: 60vw;
 }
 .top{
-    height: 40vh;
+    height: 30vh;
     width:inherit;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
+    font-size: 32px;
+    background-color: whitesmoke;
+}
+#lets{
+    font-size: 28px;
 }
 
 .boxinput{
+    padding-top:  10px;;
     display: flex;
     flex-direction: column;
     max-width: 150px;
+
+}
+label{
+    padding-bottom: 2.5px;
+}
+input{
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: royalblue;
 }
 
 .fillup{
     padding-right: 20vw;
     padding-left: 5vw;
-    height:40vh;
+    height: 45vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 form{
     display: flex;
@@ -69,6 +98,19 @@ form{
 
 
 .footer{
+    height: 20vh;
+    padding-right: 20vw;
+    padding-left: 5vw;
     position: fixed;
     bottom:0;
+    width: inherit;
+}
+
+#creation{
+    background-color:royalblue;
+    border: none;
+    padding:16px 32px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
 }
